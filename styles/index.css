@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: space-between;
+  padding: 5px 30px;
+  box-shadow: 5px 5px 5px fuchsia;
+  border: .1rem dotted fuchsia;
+}
+
+img {
+    border-radius: 30%;
+    border: .2rem solid fuchsia;
+}
+
+button,
+select {
+  width: 200px;
+  background-color: fuchsia;
+  border-radius: 10px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: large;
+  padding: 10px;
+}
+
+button:hover,
+select:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+  background-color: white;
+  color: fuchsia;
+  cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container div {
+    border: .2rem double fuchsia;
+    border-radius: 10%;
+    height: 450px;
+    margin: 20px 0px ;
+}
+
+.div1 {
+  width: 250px;
+}
+
+.div2 {
+  width:950px;
+}
+
